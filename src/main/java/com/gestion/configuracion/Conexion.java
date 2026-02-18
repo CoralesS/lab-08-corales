@@ -31,7 +31,7 @@ public class Conexion {
         return conexion;
     }
 
-    // metodo main temporal para verificar la conexion a la BD
+    /* metodo main temporal para verificar la conexion a la BD
     public static void main(String[] args) {
         // Obtiene la conexión
         java.sql.Connection prueba = Conexion.obtenerConexion();
@@ -41,5 +41,5 @@ public class Conexion {
         } else {
             System.out.println("Revisa la consola para ver el error");
         }
-    }
+    } */
 }
